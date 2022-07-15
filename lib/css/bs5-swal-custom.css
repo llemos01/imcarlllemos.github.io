@@ -1,0 +1,144 @@
+.b-0 {
+    bottom: 0;
+}
+
+.text-link, .text-link-secondary {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text-link-secondary {
+    color: rgb(135, 135, 135);
+}
+
+.text-link-secondary:hover {
+    color: #4cc289;
+}
+
+.text-link:hover {
+    color: #4cc289;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    box-shadow: 0 0 0 0.25rem #327454 !important;
+}
+
+.btn-primary {
+    background-color: #4cc289 !important;
+    border-color: #4cc289 !important;
+}
+
+.btn-secondary {
+    background-color: #585a5f !important;
+    border-color: #585a5f !important;
+}
+
+.form-control:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+
+.swal2-html-container {
+    overflow: hidden !important;
+}
+
+.swal2-container.swal2-center>.swal2-popup {
+    background-color: #4e5257;
+}
+
+.swal2-title {
+    padding: 1.2em 2em 0 2rem;
+}
+
+.swal2-actions {
+    margin: 1.25em 1.5rem  0 auto !important;
+}
+
+.swal2-close:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+h2.swal2-title {
+    text-align: left;
+    color: #fff;
+}
+
+.message-sweet .form-control {
+    height: 50px;
+    color: #fff;
+    background-color: #36393f;
+    border: none;
+    z-index: 999;
+    user-select: none;
+}
+
+ .message-sweet .form-group {
+    position: relative;
+}
+
+ .message-sweet .form-label {
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    font-size: 15px;
+    cursor: text;
+    transition: all .2s ease-out;
+    z-index: 1;
+}
+
+.message-sweet .form-control::placeholder {
+    color: transparent;
+    opacity: 1;
+}
+  
+.message-sweet .form-control:-ms-input-placeholder {
+    color: transparent;
+}
+
+.message-sweet .form-control::-ms-input-placeholder { 
+    color: transparent;
+}
+
+ .form-check-label, .label-enrol, .label-forgot {
+    font-size: 14px;
+}
+
+ .message-sweet .form-control.active,  .message-sweet .form-control:focus, 
+ input[type="text"]:not(:placeholder-shown),
+ input[type="password"]:not(:placeholder-shown),
+ input[type="email"]:not(:placeholder-shown)  {
+    border: 2px solid #4cc289;
+}
+
+ input#username.error,  input#password.error {
+    border: 2px solid #ff2600
+}
+
+ input#username.error ~ .form-label, input#password.error ~ .form-label{
+    background-color: #36393f;
+    padding: 3px 8px 3px 8px;
+    font-weight: 500;
+    transform: translateY(0rem) translateY(-25px) scale(.8);
+    color: #ff2600;
+}
+
+ .message-sweet .form-control.active~.form-label, 
+ .message-sweet .form-control:focus~.form-label,
+ input[type="text"]:not(:placeholder-shown) ~ .form-label,
+ input[type="password"]:not(:placeholder-shown) ~ .form-label,
+ input[type="email"]:not(:placeholder-shown) ~ .form-label,
+ textarea:not(:placeholder-shown) ~ .form-label {
+    background-color: #36393f;
+    padding: 3px 8px 3px 8px;
+    font-weight: 500;
+    transform: translateY(0rem) translateY(-25px) scale(.8);
+    color: #4cc289;
+}
+
+.message-sweet textarea {
+    resize: none;
+    padding-top: 20px;
+    height: 150px !important;
+}
